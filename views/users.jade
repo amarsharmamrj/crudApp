@@ -1,0 +1,33 @@
+doctype html 
+html 
+    head 
+    title=Users
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+
+    body 
+        h1.header User Management System
+
+        div.container.center
+            h1(style="color:blue;text-decoration:underline;") List of the users 
+            div.buttons.mb20
+                a(href="/") Home 
+                a(href="/addUser") Add User
+
+            table.table.table-striped.table-hover
+                thead 
+                    tr 
+                        th Name
+                        th Age
+                        th Email
+                        th Phone
+                tbody
+                -each user in data 
+                    tr 
+                        td #{user.name}
+                        td #{user.age}
+                        td #{user.email}
+                        td #{user.phone}
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js")

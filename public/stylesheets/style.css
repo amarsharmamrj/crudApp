@@ -1,0 +1,88 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #b014f8;
+}
+
+.container {
+    padding: 5px 100px;
+}
+
+.center {
+    text-align: center;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a,
+button {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #eb780d !important;
+    color: white !important;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    transition: background-color 0.7s;
+}
+
+button {
+    background-color: rgb(250, 58, 122);
+    cursor: pointer;
+}
+
+.pt100 {
+    padding-top: 100px;
+}
+
+.pt50 {
+    padding-top: 50px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+a:hover {
+    background-color: #974c05 !important;
+    text-decoration: none !important;
+}
+
+button:hover {
+    background-color: rgb(11, 14, 175);
+}
+
+table th,
+table td {
+    text-align: left;
+}
+
+form label {
+    font-size: 20px;
+    padding-right: 40px;
+    text-align: left !important;
+}
+
+form {
+    padding-top: 40px;
+}
+
+form input {
+    height: 32px;
+    width: 35%;
+}
